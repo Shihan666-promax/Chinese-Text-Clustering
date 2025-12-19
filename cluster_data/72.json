@@ -1,0 +1,9 @@
+{
+  "author": "许乾坤;王东波;刘禹彤;黄水清.",
+  "year": "2025",
+  "title": "基于MU序列标注的古籍命名实体识别研究",
+  "journal": "情报学报",
+  "keywords": "序列标注;命名实体识别;二十四史;MU方法;跨度预测",
+  "abstract": "命名实体识别任务是自然语言处理中众多下游任务的重要基础步骤。古籍作为中华文明的载体，不仅蕴含着丰富的文化遗产，更是汲取历史智慧、启迪未来的重要源泉。提高古籍文本中实体识别的准确性，有助于推动古籍文本结构化、知识体系化，助力古籍资源的智能利用和开发。首先，选取本课题组精加工的二十四史古籍作为原始数据集，使用GujiBERT＿FAN预训练模型对Sequence Labeling、Sequence Labeling＿CRF、Span-level Prediction方法进行微调，从而更准确地捕捉实体边界和类型，对古籍文本中的实体进行识别和预测。其次，本文引入多数投票（Majority Voting Combiner,MVC）和合并（Union Combiner,UC）的方法，与预测数据集进行整合并构建新的数据集，基于已识别实体数据集，使用MVC和UC方法结合NER (Named Entity Recognition)模型的预测结果重新生成新的数据集。最后，通过学习判断Sequence Labeling、Sequence Labeling＿CRF、Span-level Prediction方法对实体的预测结果是否错误，并使用提示的思路对模型进行微调。为验证本文提出的方法，采用评估指标来验证模型的效果。实验结果表明，UC方法的加入使得实体识别的召回率显著提升，MVC方法提升了模型的F1值。",
+  "id": 72
+}

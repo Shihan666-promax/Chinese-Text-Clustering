@@ -1,0 +1,9 @@
+{
+  "author": "孙文晶;马捷;郝志远.",
+  "year": "2025",
+  "title": "基于时序图卷积神经网络的在线健康社区高质量答案甄别研究",
+  "journal": "情报学报",
+  "keywords": "在线健康社区;质量预测;双系统理论;GraphSAGE-GRU;高质量答案甄别",
+  "abstract": "在线健康平台中的问诊模块是“互联网+医疗”模式下用户进行健康咨询、获取健康信息的重要渠道，准确甄别高质量答案内容对于用户的健康决策行为具有重要指导意义。本文以“好大夫在线”平台中的问诊文本作为研究对象，提出一种基于时序图卷积神经网络的在线健康社区高质量答案甄别模型。该模型在双系统理论与图论思想的基础上，一方面，设计用于衡量答案质量的特征体系，并依此完成实验数据集的创建过程；另一方面，利用图卷积神经网络模型GraphSAGE (graph sample and aggregate)对质量衡量特征体系里的细化指标完成融合，在GraphSAGE中嵌入门控循环单元（gated recurrent unit,GRU），并同步构建“医生-问题”网络图作为模型输入，最终形成GraphSAGE-GRU模型完成答案质量的预测以及高质量答案的甄别过程。本文选取SVM (support vector machine)、DT (decision tree)、kNN (k-nearest neighbor)、CNN (convolutional neural network)、GRU和GCN (graph convolutional network)作为基线方法进行对照实验，实验结果表明，本文提出模型的准确性更高，准确率可达93.2%；在甄别高质量答案方面同样表现最优，能够在实验样本中甄别出近95%的高质量答案样本。",
+  "id": 55
+}

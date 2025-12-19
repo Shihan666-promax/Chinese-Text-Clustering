@@ -1,0 +1,9 @@
+{
+  "author": "吕鲲;张未旭;靖继鹏.",
+  "year": "2025",
+  "title": "基于CLIP-LDAGV多模态信息融合的颠覆性技术主题识别研究——以新能源领域为例",
+  "journal": "情报学报",
+  "keywords": "颠覆性技术;主题识别;多模态融合;CLIP-LDAGV模型",
+  "abstract": "当前，全球科技创新呈现高速发展和高度融合的态势。准确识别出颠覆性技术主题以推动全面创新已成为科学技术发展和经济增长的关键动力。然而，传统的颠覆性技术主题识别方法主要依赖于单一模态数据，存在一定的局限性。本文基于CLIP(contrastive language-image pre-training)和LDAGV(linear discriminant analysis&global vectors for word representation)模型构建新闻文本与图像特征融合向量，通过k-means聚类迭代并结合3个颠覆性技术主题指标进行筛选，实现了多模态信息的融合以及主题的精准识别。以新能源领域为例，验证了该模型在颠覆性技术主题识别方面的可行性和有效性。与其他单一模态模型相比，多模态信息融合模型在颠覆性技术主题识别方面更具优势。",
+  "id": 39
+}
